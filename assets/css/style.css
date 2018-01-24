@@ -6,7 +6,6 @@
 @charset "utf-8";
 /* CSS Document */
 @import "fonts/OpenSans/stylesheet.css"; /* Importation du font-face */
-@import "_form.css"; /* Importation du style form */
 /* --- Général ---  */
 *{margin:0; padding:0;}
 /* -ms-overflow-style: auto | none | scrollbar | -ms-autohiding-scrollbar */
@@ -225,3 +224,7 @@ font-family: 'Trebuchet MS';font-size: 12px; line-height: 11px; font-weight: bol
 .listview li{}
 
 .label.black{ background-color: cadetblue; }
+
+.actionsRow.labelMargin {
+    margin: 32px 0 12px;
+}
